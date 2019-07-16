@@ -35,7 +35,7 @@ for i in data:
 	m=len(a)//length#to get the total number of rows
 	for i in range(m):#to get a list of list so that it is in proper type to fit in csv file
 		b=[]
-		while(c<24):#there are 24 columns
+		while(c<length):#there are 24 columns we can use c<24 also
 			b.append(a[x])
 			c+=1
 			x+=1
